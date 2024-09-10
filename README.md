@@ -46,7 +46,8 @@ brew install cmake
 		7. Choose the `.cpp`files
 
 8. **Build and Run the program by selecting `play button` down the VSCode.**
-![[Pasted image 20240909153320.png]]
+<img width="1468" alt="Pasted image 20240909153320" src="https://github.com/user-attachments/assets/acc3c506-2023-4432-b15d-db2627bf412e">
+
 
 9. **Configure Debugging**
 	- To debug the C++ program using LLDB, set up the *launch.json* configuration. Open your `launch.json` file and add the following configuration for debugging:
@@ -87,6 +88,6 @@ brew install cmake
 ```
 10. Final step is to choose a kits which a toolchain for compiling and linking the project.
 	- Choose the kit in `No Kit Selected` section.
-![[Pasted image 20240909153320.png]]
- ![[Pasted image 20240910075929.png]]
-- *Select the appropriate one and Happy Coding*.
+ 	- *Select the appropriate one and Happy Coding*.
+<img width="1468" alt="Pasted image 20240909153320" src="https://github.com/user-attachments/assets/f95c71ba-1985-4fad-b8d3-87a68675f10e">
+
