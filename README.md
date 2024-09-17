@@ -4,6 +4,7 @@
 1. **Install Xcode**
 	- Open the App Store and search for Xcode.
 	- Install the latest version of Xcode.
+ 	- Type `xcode-select --version` to check whether it's already installed. 	
 
 1. **Install Xcode Command Line Tools**
 	- Open *Terminal* 
@@ -14,12 +15,15 @@
 
 3. **Install [Homebrew](https://brew.sh/)**
 	- Open *Terminal* and and install Homebrew by running:
+	- Type `brew --version` to check whether it's installed.
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 4. **Install CMake via Homebrew**
 	- Install Cmake(for building C/C++ projects) using Homebrew:
+	- Type `cmake --version` to check whether it's installed.
+```bash
 ```bash
 brew install cmake
 ```
@@ -88,6 +92,7 @@ brew install cmake
 ```
 10. Final step is to choose a kits which a toolchain for compiling and linking the project.
 	- Choose the kit in `No Kit Selected` section.
+ 	- Or goes to the command palette, and select toolkit from `CMake: Select a kit` option.
  	- *Select the appropriate one and Happy Coding*.
 <img width="1468" alt="Pasted image 20240909153320" src="https://github.com/user-attachments/assets/f95c71ba-1985-4fad-b8d3-87a68675f10e">
 
