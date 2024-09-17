@@ -9,22 +9,21 @@
 1. **Install Xcode Command Line Tools**
 	- Open *Terminal* 
 	- Run the following command to install command line tools:
-```bash
-		xcode-select --install
+```
+xcode-select --install
 ```
 
 3. **Install [Homebrew](https://brew.sh/)**
 	- Open *Terminal* and and install Homebrew by running:
 	- Type `brew --version` to check whether it's installed.
-```bash
+```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 4. **Install CMake via Homebrew**
 	- Install Cmake(for building C/C++ projects) using Homebrew:
 	- Type `cmake --version` to check whether it's installed.
-```bash
-```bash
+```
 brew install cmake
 ```
 
